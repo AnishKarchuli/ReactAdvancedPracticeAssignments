@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const { data, loading, error } = useFetch('https://jsonplaceholder.typicode.com/todos?_limit=4');
-  console.log(data.length)
+  // console.log(data.length)
   
   return (
     <div className='container mt-4'>
